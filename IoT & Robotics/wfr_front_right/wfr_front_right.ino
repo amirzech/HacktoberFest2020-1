@@ -21,6 +21,7 @@ void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600);
 pinMode(trigpin1,OUTPUT);
+  pinMode(trigpin1,OUTPUT);
 pinMode(echopin1,INPUT);
 pinMode(trigpin2,OUTPUT);
 pinMode(echopin2,INPUT);
